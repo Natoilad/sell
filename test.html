@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="head_container">
+        <img
+          style="height: 150px"
+          src="https://easymac.com.ua/image/cache/catalog/product/Phone/apple/iPhone_13/blue/1_iphone_13_blue-194x200.jpeg"
+          alt="iphone"
+        />
+      </div>
+      <div class="memory_container">
+        <div>
+          <p>Оберіть модель</p>
+          <select id="model">
+            <option value="iPhone 8">iPhone 8</option>
+            <option value="iPhone 8 Plus">iPhone 8 Plus</option>
+            <option value="iPhone Xr">iPhone Xr</option>
+            <option value="iPhone X">iPhone X</option>
+            <option value="iPhone Xs">iPhone Xs</option>
+            <option value="iPhone Xs Max">iPhone Xs Max</option>
+            <option value="iPhone 11">iPhone 11</option>
+            <option value="iPhone 11 Pro">iPhone 11 Pro</option>
+            <option value="iPhone 11 Pro Max">iPhone 11 Pro Max</option>
+            <option value="iPhone 12 mini ">iPhone 12 mini</option>
+            <option value="iPhone 12">iPhone 12</option>
+            <option value="iPhone 12 Pro">iPhone 12 Pro</option>
+            <option value="iPhone 12 Pro Max">iPhone 12 Pro Max</option>
+            <option value="iPhone 13 mini ">iPhone 13 mini</option>
+            <option value="iPhone 13">iPhone 13</option>
+            <option value="iPhone 13 Pro">iPhone 13 Pro</option>
+            <option value="iPhone 13 Pro Max">iPhone 13 Pro Max</option>
+            <option value="iPhone 14">iPhone 14</option>
+            <option value="iPhone 14">iPhone 14 Plus</option>
+            <option value="iPhone 14">iPhone 14 Pro</option>
+            <option value="iPhone 14">iPhone 14 Pro Max</option>
+            <!-- ... інші моделі -->
+          </select>
+
+          <div>
+            <div class="form_radio_btn">
+              <h4>1. Виберіть «Об'єм пам'яті»</h4>
+              <div style="display: flex; flex-wrap: wrap; gap: 10px">
+                <div style="margin: 20px 10px">
+                  <input
+                    style="display: none"
+                    id="memory1"
+                    type="radio"
+                    name="radio"
+                    value="64"
+                  />
+                  <label class="memory_check" for="memory1">64 gb</label>
+                </div>
+
+                <div style="margin: 20px 10px">
+                  <input
+                    style="display: none"
+                    id="memory3"
+                    type="radio"
+                    name="radio"
+                    value="128"
+                  />
+                  <label class="memory_check" for="memory3">128 gb</label>
+                </div>
+
+                <div style="margin: 20px 10px">
+                  <input
+                    style="display: none"
+                    id="memory2"
+                    type="radio"
+                    name="radio"
+                    value="256"
+                  />
+                  <label class="memory_check" for="memory2">256 gb </label>
+                </div>
+
+                <div style="margin: 20px 10px">
+                  <input
+                    style="display: none"
+                    id="memory4"
+                    type="radio"
+                    name="radio"
+                    value="512"
+                  />
+                  <label class="memory_check" for="memory4">512 gb </label>
+                </div>
+              </div>
+
+              <input type="hidden" id="price1" value="2500" />
+              <input type="hidden" id="price11" value="4800" />
+              <input type="hidden" id="price111" value="5800" />
+
+              <input type="hidden" id="price2" value="2700" />
+              <input type="hidden" id="price22" value="5500" />
+              <input type="hidden" id="price222" value="6700" />
+
+              <input type="hidden" id="price3" value="" />
+              <input type="hidden" id="price33" value="" />
+              <input type="hidden" id="price333" value="" />
+
+              <br />
+              <h4>2. Виберіть «Стан телефону »</h4>
+              <button class="status button" id="status1" value="Пошкоджений">
+                Пошкоджений
+              </button>
+              <button class="status button" id="status2" value="Хороший">
+                Хороший
+              </button>
+              <button class="status button" id="status3" value="Як новий">
+                Як новий
+              </button>
+
+              <div class="description-text1" style="display: none">
+                <p><strong>Пошкоджений</strong></p>
+                <!-- ... інші моделі -->
+                <!-- ... інші моделі -->
+                <ul style="max-width: 400px; margin: 0">
+                  <li>
+                    Пошкоджений екран або корпус (тріщини/сколи/втрата
+                    кольору/не працює сенсор).
+                  </li>
+                  <li>
+                    Не працює одна із функцій(face
+                    id/wi-fi,bluetooth/камери/мікрофони/не тримає заряд/немає
+                    зв'язку).
+                  </li>
+                  <li>Потрібен ремонт.</li>
+                  <li>Стан акумулятора нижче 80%</li>
+                </ul>
+              </div>
+              <div class="description-text2" style="display: block">
+                <p><strong>Хороший стан</strong></p>
+                <!-- ... інші моделі -->
+                <!-- ... інші моделі -->
+                <ul style="max-width: 400px; margin: 0">
+                  <li>Дрібні сліди використання</li>
+                  <li>Відсутні глибокі подряпини,тріщини,сколи</li>
+                  <li>Всі функції коректно працюють</li>
+                  <li>Стан акумулятора 80-90%</li>
+                  <li>На екрані немає битих пікселів</li>
+                  <li>Відсутні сліди потрапляння вологи.</li>
+                </ul>
+              </div>
+              <div class="description-text3" style="display: none">
+                <p><strong>Як новий</strong></p>
+                <!-- ... інші моделі -->
+
+                <ul style="max-width: 400px; margin: 0">
+                  <li>Без слідів використання</li>
+                  <li>Телефон як новий</li>
+                  <li>Стан акумулятора вище 90%</li>
+                  <li>Відсутні помилки про заміну деталей/будь-які ремонти</li>
+                  <li>Без слідів потрапляння вологи.</li>
+                  <li>Камери не мають плям на білому фоні</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- second section -->
+        <div class="container_total">
+          <div class="test">
+            <div style="margin-bottom: 20px; text-align: start">
+              <h4>Інформація про телефон:</h4>
+              <ul>
+                <li>
+                  <span>Модель:</span>
+                  <input
+                    type="text"
+                    id="selectedModel"
+                    value="Оберить модеть"
+                    readonly
+                  />
+                </li>
+                <li>
+                  <span>Об'єм пам'яті:</span>
+                  <input type="text" id="selectedMemory" value="0" readonly />
+                  gb
+                </li>
+                <li>
+                  <span>Стан:</span>
+                  <input
+                    type="text"
+                    id="selectedStatus"
+                    value="Оберіть стан"
+                    readonly
+                  />
+                </li>
+                <li>
+                  <span>Ціна:</span>
+                  <input
+                    type="text"
+                    id="totalPrice"
+                    value="Оберіть всі параметри"
+                    readonly
+                  />
+                  грн.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

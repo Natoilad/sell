@@ -1,0 +1,30 @@
+.img-fluid {
+  width: 206px !important;
+}
+
+/* .owl-carousel .owl-item img {
+  width: 206px !important;
+} */
+
+.owl-nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -140px;
+  z-index: 99;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  padding: 10px !important;
+  font-size: 70px !important;
+}
+
+.slider_link {
+  display: flex;
+  justify-content: center;
+}
+.body {
+  text-align: center;
+}
