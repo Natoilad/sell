@@ -10,7 +10,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin-top: -140px;
+  margin-top: -240px;
   z-index: 99;
 }
 
@@ -22,6 +22,8 @@
 }
 
 .slider_link {
+  text-decoration: none;
+  color: #000;
   display: flex;
   justify-content: center;
 }
